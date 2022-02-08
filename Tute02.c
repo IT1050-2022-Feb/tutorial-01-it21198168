@@ -24,7 +24,11 @@ int main() {
   scanf("%f",& dis);
   if(dis<=30){
     amount=dis*50;
-    printf("Amount")
+    printf("Amount%f",amount);
+  }
+  else{
+    amount=30*50+(dis-30)*40;
+    printf("Amount%f",amount);
   }
   
   return 0;
